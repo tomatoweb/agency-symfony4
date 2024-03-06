@@ -1,0 +1,16 @@
+
+Ce projet C:\Users\matha\OneDrive\Desktop\Projects\Symfony_4.4_projects\symfony
+
+est hebergé en ligne sur /var/www/srv_dev/app/symfony/public/index.php
+
+voir ici pour le développement: http://mtapp.dotdev.be/symfony_tips
+
+
+Il faut (02-03-2024) :
+
+1. développer en local (avec aussi les commandes Symfony en CLI)
+2. le mettre dans un Git (git init)
+3. créer un Bare repo sur le VPS (cf mtapp/PHPdansDebian.txt chercher "bare")
+4. git pusher
+
+bon courage...
