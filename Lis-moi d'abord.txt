@@ -1,10 +1,18 @@
 
-Ce projet C:\Users\matha\OneDrive\Desktop\Projects\Symfony_4.4_projects\symfony
+Ce projet C:\Users\matha\OneDrive\Desktop\Projects\Symfony_4.4_projects\agency
 
-est hebergé en ligne sur /var/www/srv_dev/app/symfony/public/index.php
+est hebergé en ligne sur /var/www/srv_dev/app/??????????
 
 voir ici pour le développement: http://mtapp.dotdev.be/symfony_tips
 
+Pour développer en local:
+------------------------
+
+- pas besoin de wamp, on lance le server http intégré de Symfony :
+
+        "php -S 128.0.0.1:8001 -t public"  à condition que le port 8001 soit libre !
+
+- "git commit -am" avant de quitter le développement
 
 Il faut (02-03-2024) :
 
