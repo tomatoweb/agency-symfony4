@@ -32,7 +32,7 @@ class HomeController{
         $properties = $repository->findLatest();
 
         return new Response($this->twig->render('pages/index.html.twig',
-            compact('properties')               // alias ["properties" => $properties]
+            compact('properties') // alias ["properties" => $properties]
             ));
     }
 }

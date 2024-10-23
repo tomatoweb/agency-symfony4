@@ -17,18 +17,15 @@
         </div>
 
         <div class="container mb-5">
-            <h1>{{ "Les biens à la Une"|convert_encoding('UTF-8', 'ISO-8859-1') }}</h1>
+            <h1>{{ "Les biens Ã  la Une" }}</h1>
             <div class="row flex">
                 {% for property in properties %}
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card rounded">
                         <div class="card-body">
                             <h5 class="card-title">
-                                <a href="{{ path('property.show', {id:property.id, name:property
-                                    .name})
-                                }}">{{ property
-                                    .name
-                                    }}</a>
+                                <a href="{{ path('property.show', {id:property.id, name:property.name})}}">
+                                  {{ property.name }}</a>
                             </h5>
                             <p class="card-text">
                                 {{ property.description }}
